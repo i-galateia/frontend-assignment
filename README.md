@@ -12,7 +12,7 @@ Documentation on the API can be found [here](https://www.marinetraffic.com/en/ai
 * Animation controls.
 * Javascript code (Any JS Framework or Library)
 
-**** Provide answer ****
+**** Provided answer ****
 * Waypoints with informational tooltips:
 The implementation consists of map (using leaflet.js library), containing multiple layers that can be controlled through the interface.
 The initial loaded layer, shows the last position of the vessel (mmsi:241486000). The layer named "latest positions" shows tha hourly positions of the vessel the last day (by last day meaning the last 24 hours). Clicking on a marker representing a vessel a pop-up opens containing information.
